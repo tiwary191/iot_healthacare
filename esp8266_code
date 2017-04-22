@@ -47,9 +47,9 @@ unsigned long previousMillis = 0;
 long interval = 2000; // interval at which to do something (milliseconds)
 
 
-String apiKey ="HJCMGYQ6AAY980OT";
-const char* ssid = "iothealthcare";
-const char* password = "savelife";
+String apiKey ="your channel read api key from thingspeak";
+const char* ssid = "";
+const char* password = "";
 WiFiClient client;
 const char* host = "184.106.153.149";//you pc IP
 //char auth[] = "6bea005419574ca69b6c25ba244bb56a ";
@@ -156,7 +156,7 @@ void loop() {
   }
   
  
-
+//for updating data on twitter
 //  if(temp>35)
 //  { 
 //    client.connect(host, httpPort);
